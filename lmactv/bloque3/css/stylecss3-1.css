@@ -1,0 +1,22 @@
+article {
+    width: 450px;
+    background-color: papayawhip;
+    margin: 30px;
+    padding: 30px;
+    color: orange;
+    border: 10px solid yellow;
+    outline: 20px solid darkslategray;
+  }
+  
+  h1 {
+    font-size: x-large;
+    color: salmon;
+  }
+  
+  a:link {
+    color: orange;
+  }
+  
+  a:visited {
+    color: brown;
+  }  
