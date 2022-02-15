@@ -1,0 +1,44 @@
+header, section, aside, footer {
+    margin: 0px;
+    padding: rem-calc(10 15 20 15);
+    border: 1px solid black;
+    color: white;
+}
+
+header {
+    background-color: red;
+}
+
+#hero {
+    background-color: darksalmon;
+}
+
+#content {
+    background-color: green;
+}
+
+aside {
+    background-color: purple;
+}
+
+footer {
+    background-color: darkturquoise;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#content {
+    flex: 1;
+}
+
+aside {
+    flex: 0 1 320px;
+}
+
+@media (max-width: 640px) {
+    .flex-container {
+        display: inline;
+    }
+}
