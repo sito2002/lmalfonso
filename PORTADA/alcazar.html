@@ -36,6 +36,48 @@
         .centrarfoto {
             text-align: center;
         }
+        
+        nav {
+            align-items: center;
+            font-size: large;
+            background-color: rgba(245, 191, 97, 0.523);
+            width: 23%;
+        }
+        
+        .imagen {
+            width: 100%;
+        }
+        
+        .imagen img {
+            width: 100%;
+        }
+        
+        .galeria {
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 0.5rem;
+            row-gap: 0.5rem;
+        }
+        
+        @media (min-width:100px) {
+            .galeria {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        
+        @media (min-width:520px) {
+            .galeria {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (min-width:720px) {
+            .galeria {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
     </style>
 </head>
 
@@ -97,7 +139,19 @@
         </section>
 
 
-
+        <div class="contenedor">
+            <div class="galeria">
+                <div class="imagen elemento1"><img src="alca1.jpg" alt=""></div>
+                <div class="imagen elemento2"><img src="alca2.jpg" alt=""></div>
+                <div class="imagen elemento3"><img src="alca3.jpg" alt=""></div>
+                <div class="imagen elemento4"><img src="alca4.jpg" alt=""></div>
+                <div class="imagen elemento5"><img src="alca5.jpg" alt=""></div>
+                <div class="imagen elemento8"><img src="alca8.jpg" alt=""></div>
+                <div class="imagen elemento9"><img src="alca9.jpg" alt=""></div>
+                <div class="imagen elemento10"><img src="alca10.jpg" alt=""></div>
+                <div class="imagen elemento12"><img src="alca12.jpg" alt=""></div>
+            </div>
+        </div>
     </main>
     <a href="#top"><img src="top.png" width="100"></a>
     <nav>
