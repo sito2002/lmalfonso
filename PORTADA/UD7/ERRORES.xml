@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+    <!ELEMENT errores (fichero+)>
+    <!ELEMENT fichero (error+)>
+    <!ELEMENT error (linea, tipo)>
+    <!ELEMENT linea (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ATTLIST fichero nombre CDATA #REQUIRED>
+]>
+<errores>
+  <fichero nombre="ejer6.xml">
+    <error>
+      <linea>2</linea>
+      <tipo>Falta el DOCTYPE al principio del fichero.</tipo>
+    </error>
+    <error>
+      <linea>16</linea>
+      <tipo>Falta el elemento ciudad.</tipo>
+    </error>
+  </fichero>
+</errores>

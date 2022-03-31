@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE relacion [
+    <!ELEMENT relacion (persona)+>
+    <!ELEMENT persona (nombre, email*, parentesco?)>
+    <!ATTLIST persona carnet ID #REQUIRED>
+    <!ATTLIST persona sexo (hombre | mujer) #IMPLIED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT parentesco EMPTY>
+    <!ATTLIST parentesco tutor-legal IDREFS #REQUIRED hermano-a IDREFS #REQUIRED>
+]>
+<relacion>
+    <persona carnet="B" sexo="hombre">
+        <nombre>Álvaro</nombre>
+        <email></email>
+        <parentesco tutor-legal="A" hermano-a="C"></parentesco>
+    </persona>
+    <persona carnet="A" sexo="mujer">
+        <nombre>Antonia</nombre>
+        <email></email>
+        <parentesco tutor-legal="B" hermano-a="A"></parentesco>
+    </persona>
+    <persona carnet="C" sexo="mujer">
+        <nombre>Lola</nombre>
+        <email></email>
+        <parentesco tutor-legal="A" hermano-a="B"></parentesco>
+    </persona>
+</relacion>

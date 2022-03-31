@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (nombre,mayor_de_edad,ciudad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT mayor_de_edad EMPTY>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ATTLIST persona forma_pago CDATA "contado">
+]>
+<persona forma_pago="Bizum">
+    <nombre>Antonio</nombre>
+    <mayor_de_edad/>
+    <ciudad>Madrid</ciudad>
+</persona>

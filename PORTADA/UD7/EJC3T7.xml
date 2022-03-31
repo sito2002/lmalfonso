@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudadanos [
+    <!ELEMENT ciudadanos (persona+, animal?)>
+    <!ELEMENT persona (nombre,mayor_de_edad?,ciudad)>
+    <!ELEMENT animal (nombre, vacunas)>
+    <!ELEMENT vacunas (vacuna)>
+    <!ELEMENT vacuna (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT mayor_de_edad EMPTY>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ATTLIST persona forma_pago CDATA "contado">
+    <!ATTLIST ciudad codigo_postal CDATA "zona">
+    <!ATTLIST animal raza CDATA #REQUIRED>
+    <!ATTLIST vacuna id CDATA #REQUIRED>
+    <!ATTLIST vacuna fecha CDATA #REQUIRED>
+]>
+<ciudadanos>
+    <persona forma_pago="bizum">
+      <nombre>Pedro</nombre>
+      <mayor_de_edad/>
+      <ciudad codigo_postal="14011">Cordoba</ciudad>
+    </persona>
+    <persona forma_pago="oficina">
+      <nombre>Andres</nombre>
+      <ciudad codigo_postal="14550">Montilla</ciudad>
+    </persona>
+    <animal raza="perro">
+      <nombre>Chustas</nombre>
+      <vacunas>
+        <vacuna id="1" fecha="2019">Rabia</vacuna>
+      </vacunas>
+    </animal>
+</ciudadanos>
