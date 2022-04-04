@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.0rg/2005/atom" xml:lang="es-es">
 <title type="text">Ejemplo de ATOM</title>
 <updated>2022-04-04T10:54:129</updated>
-<link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/"/>
-<id>https://sito2002.github.io/lmalfonso.github.io/</id>
+<link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/atom1.atom"/>
+<id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/atom1.atom</id>
 
 <entry>
 <title>EJERCICIO 1</title>
