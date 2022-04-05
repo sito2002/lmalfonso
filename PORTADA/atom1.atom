@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Ejemplo de ATOM</title>
 <link rel="alternate" type="text/xml" href="atom1.atom"/>
-<id>atom1.atom</id>
+<id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/inicio.html</id>
 
 <entry>
 <title>EJERCICIO 1</title>
