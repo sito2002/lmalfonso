@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.0rg/2005/atom" xml:lang="es-es">
 <title type="text">Ejemplo de ATOM</title>
-<link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/atom1.atom"/>
-<id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/atom1.atom</id>
+<link rel="alternate" type="text/html" href="atom1.atom"/>
+<id>atom1.atom</id>
 
 <entry>
 <title>EJERCICIO 1</title>
-<link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC1T7.xml" />
+<link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC1T7.xml" />
 <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC1T7.xml</id>
 <author>
 <name>ALFONSO</name>
@@ -16,7 +16,7 @@
 </entry>
 <entry>
     <title>EJERCICIO 2</title>
-    <link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC2T7.xml" />
+    <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC2T7.xml" />
     <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC2T7.xml</id>
     <author>
     <name>ALFONSO</name>
@@ -26,7 +26,7 @@
 </entry>
 <entry>
     <title>EJERCICIO 3</title>
-    <link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC3T7.xml" />
+    <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC3T7.xml" />
     <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC3T7.xml</id>
     <author>
     <name>ALFONSO</name>
@@ -36,7 +36,7 @@
 </entry>
 <entry>
     <title>EJERCICIO 4</title>
-    <link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC4T7.xml" />
+    <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC4T7.xml" />
     
     <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC4T7.xml</id>
     <author>
@@ -47,7 +47,7 @@
 </entry>
 <entry>
     <title>EJERCICIO 5</title>
-    <link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC5T7.xml" />
+    <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC5T7.xml" />
    
     <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC5T7.xml</id>
     <author>
@@ -58,7 +58,7 @@
 </entry>
 <entry>
     <title>EJERCICIO 6</title>
-    <link rel="alternate" type="text/html" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC6T7.xml" />
+    <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC6T7.xml" />
     
     <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC6T7.xml</id>
     <author>
