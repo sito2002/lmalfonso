@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.0rg/2005/atom" xml:lang="es-es">
 <title type="text">Ejemplo de ATOM</title>
-<link rel="alternate" type="text/html" href="atom1.atom"/>
+<link rel="alternate" type="text/xml" href="atom1.atom"/>
 <id>atom1.atom</id>
 
 <entry>
