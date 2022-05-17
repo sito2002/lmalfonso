@@ -67,4 +67,15 @@
     </author>
     <summary>EJERCICIO 6 DE XML</summary>
 </entry>
+    <entry>
+    <title>EJERCICIOS DE XHTML</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/XHTML.pdf" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/XHTML.pdf</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIOS DE XHTML</summary>
+</entry>
 </feed>
