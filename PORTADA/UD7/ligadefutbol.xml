@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE futbol [
+ <!ELEMENT futbol (partido+)>
+  <!ELEMENT partido (local,visitante,gollocal,golvisitante)>
+  <!ELEMENT local (#PCDATA)>
+ <!ELEMENT visitante (#PCDATA)>
+ <!ELEMENT gollocal (#PCDATA)>
+ <!ELEMENT golvisitante (#PCDATA)>
+]>
+
+<futbol>
+<partido>
+<local>Nothingam Presa</local>
+<visitante>Inter Mitente</visitante>
+<gollocal>0</gollocal>
+<golvisitante>1</golvisitante>
+</partido>
+<partido>
+<local>Vodka juniors</local>
+<visitante>Sparta da risa</visitante>
+<gollocal>3</gollocal>
+<golvisitante>3</golvisitante>
+</partido>
+<partido>
+<local>Water de munich</local>
+<visitante>Esteaua es del grifo</visitante>
+<gollocal>4</gollocal>
+<golvisitante>2</golvisitante>
+</partido>
+  
+</futbol>

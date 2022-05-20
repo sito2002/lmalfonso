@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etiqueta [
+<!ELEMENT etiqueta (nombre,calle,ciudad?,pais,codigo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+]>
+<etiqueta>
+
+    
+       <nombre>Pepe</nombre>
+       <calle>calle ronda</calle>
+       <pais>españa</pais>
+        <codigo>18465</codigo>
+        
+   
+  </etiqueta>
+    
+<!--falta el doctype y la interrogacion en ciudad para que sea 0 o 1 ya que no aparece-->

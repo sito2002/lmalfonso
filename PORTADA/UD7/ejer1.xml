@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE red [
+<!ELEMENT red (centro)*>
+<!ELEMENT centro (nombre, grado, anyo, localizacion)>
+<!ATTLIST centro type CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT grado (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT localizacion (ciudad, comunidad)>
+<!ELEMENT comunidad (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+]>
+<red>
+<centro type="dato">
+<nombre>Juan</nombre>
+<grado>Asir</grado>
+<anyo>Primero</anyo>
+<localizacion>
+<ciudad>Cordoba</ciudad>
+<comunidad>Andalucia</comunidad>
+</localizacion>
+</centro>
+</red>

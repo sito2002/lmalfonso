@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+<!ELEMENT errores (error+)>
+<!ELEMENT error (tipo,codigo,descripcion,localizacion)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT localizacion (fichero,fila,columna)>
+<!ELEMENT fichero (#PCDATA)>
+<!ELEMENT fila (#PCDATA)>
+<!ELEMENT columna (#PCDATA)>
+
+<!ATTLIST error id ID #REQUIRED>
+]>
+<errores>
+
+    <error id="id1">
+       <tipo>Aviso</tipo>
+       <codigo>000001</codigo>
+       <descripcion>Descripcion</descripcion>
+       <localizacion>
+         <fichero>actividad.xml</fichero>
+          <fila>3</fila>
+         <columna>5</columna>
+     </localizacion>
+    </error>
+    
+<error id="id2">
+       <tipo>Fatal</tipo>
+       <codigo>100001</codigo>
+       <descripcion>Descripcion</descripcion>
+       <localizacion>
+         <fichero>actividad2.xml</fichero>
+          <fila>2</fila>
+         <columna>4</columna>
+     </localizacion>
+    </error>
+
+</errores>

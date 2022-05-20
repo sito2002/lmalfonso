@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+    <xs:element name="rh">
+       <xs:complexType>
+          <xs:sequence>
+           <xs:element name="cv" maxOccurs="unbounded">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="datos_personales" type="tipodatos_personales"/>
+            </xs:sequence>
+             <xs:attributeGroup ref = "atributoscv"/>
+            </xs:complexType>
+           </xs:element>
+          </xs:sequence>
+       </xs:complexType>
+      </xs:element>
+      
+<xs:attributeGroup name ="atributoscv">
+   <xs:attribute name ="id" type="xs:ID" use="required"/>
+   <xs:attribute name ="fecha" type="xs:date" use="required"/>
+   <xs:attribute name ="categoria" type="xs:string" use="optional"/>
+</xs:attributeGroup>
+    
+    <xs:complexType name="tipodatos_personales">
+      <xs:sequence>
+       <xs:element name="nombre" type="xs:string"/>
+       <xs:element name="apellido1" type="xs:string"/>
+       <xs:element name="apellido2" type="xs:string"/>
+       <xs:element name="telefono" type="xs:string"/>
+         <xs:element name="correo">
+           <xs:simpleType>
+             <xs:restriction base="xs:string">
+               <xs:pattern value="[^@]+@[^.]+..+"/>
+             </xs:restriction>
+           </xs:simpleType>
+         </xs:element>
+         
+         <xs:redsocial name="red_social">
+         
+complextype
+    secuencia
+        nombre string
+        nic string
+        enlace string
+        valorancion
+            simpletype
+                 restriccion
+                     minInclusive 0
+                     maxOnclusive 5
+                 
+         </xs:redsocial>
+         
+      </xs:sequence>
+    </xs:complexType>
+  </xs:schema>

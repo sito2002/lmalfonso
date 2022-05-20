@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rh xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejer2.xsd">
+
+  <cv id="id1" fecha="2020-05-08" categoria ="ADSYS">
+    <datos_personales>
+     <nombre>Juan</nombre>
+     <apellido1>cuenca</apellido1>
+     <apellido2>martinez</apellido2>
+     <telefono>123456789</telefono>
+     <correo>correo@gmail.com</correo>
+    </datos_personales>
+   
+  </cv>
+  
+  <cv id="id2" fecha="2020-05-08" categoria ="ADSYS">
+      <datos_personales>
+     <nombre>Juan</nombre>
+     <apellido1>cuenca</apellido1>
+     <apellido2>martinez</apellido2>
+     <telefono>123456789</telefono>
+     <correo>correo@gmail.com</correo>
+    </datos_personales>
+
+  </cv>
+</rh>

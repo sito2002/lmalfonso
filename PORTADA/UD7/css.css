@@ -1,0 +1,39 @@
+#Menu {
+    text-align: center;
+    margin: 0 10px 0 0;
+    font-style: italic 20px;
+}
+
+#Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu li a {
+    font-family: Late;
+    font-size: 30px;
+    text-decoration: none;
+    float: center;
+    padding: 10px;
+    background-color: green;
+    color: black;
+}
+
+#Menu li {
+    display: inline;
+}
+
+#Menu li a:hover {
+    background-color: pink;
+    margin-top: -2;
+    margin-left: +2;
+    margin-right: +2;
+    margin-bottom: +2;
+    padding-bottom: 12px;
+}
+
+html {
+    background: url(fond.jpg);
+    background-size: cover;
+}
