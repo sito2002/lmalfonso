@@ -7,7 +7,7 @@
 <entry>
 <title>EJERCICIO 1</title>
 <link rel="alternate" type="text/xml" href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC1T7.xml" />
-<id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC1T7.xml</id>
+<id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/actividad.xml</id>
 <author>
 <name>ALFONSO</name>
 <email>alfonso220102@gmail.com</email>
@@ -16,8 +16,8 @@
 </entry>
 <entry>
     <title>EJERCICIO 2</title>
-    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC2T7.xml" />
-    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC2T7.xml</id>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/actividad2.xml" />
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/actividad2.xml</id>
     <author>
     <name>ALFONSO</name>
     <email>alfonso220102@gmail.com</email>
@@ -26,8 +26,8 @@
 </entry>
 <entry>
     <title>EJERCICIO 3</title>
-    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC3T7.xml" />
-    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC3T7.xml</id>
+        <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/persona.xml" />
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/persona.xml</id>
     <author>
     <name>ALFONSO</name>
     <email>alfonso220102@gmail.com</email>
@@ -36,9 +36,9 @@
 </entry>
 <entry>
     <title>EJERCICIO 4</title>
-    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC4T7.xml" />
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas.xml" />
     
-    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC4T7.xml</id>
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas.xml</id>
     <author>
     <name>ALFONSO</name>
     <email>alfonso220102@gmail.com</email>
@@ -47,9 +47,9 @@
 </entry>
 <entry>
     <title>EJERCICIO 5</title>
-    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC5T7.xml" />
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas.xsd" />
    
-    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC5T7.xml</id>
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas.xsd</id>
     <author>
     <name>ALFONSO</name>
     <email>alfonso220102@gmail.com</email>
@@ -58,15 +58,163 @@
 </entry>
 <entry>
     <title>EJERCICIO 6</title>
-    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC6T7.xml" />
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas2.xml" />
     
-    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/EJC6T7.xml</id>
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas2.xml</id>
     <author>
     <name>ALFONSO</name>
     <email>alfonso220102@gmail.com</email>
     </author>
     <summary>EJERCICIO 6 DE XML</summary>
 </entry>
+<entry>
+    <title>EJERCICIO 7</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas2.xsd" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/personas2.xsd</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 7 DE XML</summary>
+</entry>
+    
+<entry>
+    <title>EJERCICIO 8</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 8 DE XML</summary>
+</entry>
+    
+<entry>
+    <title>EJERCICIO 9</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol2.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol2.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 9 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 10</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol3.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ligadefutbol3.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 10 DE XML</summary>
+</entry>
+    
+<entry>
+    <title>EJERCICIO 11</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/mortadelo.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/mortadelo.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 11 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 12</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/cd.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/cd.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 12 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 13</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/cd.xsl" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/cd.xsl</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 13 DE XML</summary>
+</entry>
+    
+<entry>
+    <title>EJERCICIO 14</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer1.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer1.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 14 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 15</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer2.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer2.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 15 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 16</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer2.xsd" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/ejer2.xsd</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 16 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 17</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/tiempo.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/tiempo.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 17 DE XML</summary>
+</entry>   
+<entry>
+    <title>EJERCICIO 18</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/tiempo.xsl" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/tiempo.xsl</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 18 DE XML</summary>
+</entry>
+<entry>
+    <title>EJERCICIO 19</title>
+    <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/xpath1.xml" />
+    
+    <id>https://sito2002.github.io/lmalfonso.github.io/PORTADA/UD7/xpath1.xml</id>
+    <author>
+    <name>ALFONSO</name>
+    <email>alfonso220102@gmail.com</email>
+    </author>
+    <summary>EJERCICIO 19 DE XPATH</summary>
+</entry>
+
     <entry>
     <title>EJERCICIOS DE XHTML</title>
     <link href="https://sito2002.github.io/lmalfonso.github.io/PORTADA/XHTML.pdf" />
